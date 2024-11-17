@@ -23,11 +23,11 @@ def laberinto(filename="laberinto.txt"):
         "█ █████ █████████████ █B",
         "████████████████████████",
     ]
-    
-    # Save the maze to the file using utf-8 encoding
+
     with open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(maze))
     print(f"Maze saved to {filename}")
 
-# Create and save the maze
 laberinto()
+
+###
