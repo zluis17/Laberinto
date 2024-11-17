@@ -1,9 +1,6 @@
-def create_beautiful_maze(filename="laberinto.txt"):
-    """
-    Creates a beautiful maze and saves it to a file.
-    The maze includes a start point (A), a goal point (B),
-    walls (█), and paths ( ).
-    """
+## Hacer laberinto en Archivo .txt
+
+def laberinto(filename="laberinto.txt"):
     maze = [
         "█████████████████████████",
         "█A     █         █     █",
@@ -33,4 +30,4 @@ def create_beautiful_maze(filename="laberinto.txt"):
     print(f"Maze saved to {filename}")
 
 # Create and save the maze
-create_beautiful_maze()
+laberinto()
